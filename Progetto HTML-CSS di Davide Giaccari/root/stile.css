@@ -1,0 +1,102 @@
+#menù {
+    display:none;
+}
+
+#bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.lead , small {
+    color: aliceblue;
+}
+p,h1,h2 {
+    text-align: center;
+}
+#skill {
+    margin: 30px;
+}
+#CTA {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cel-display-none {
+    display: none;
+}
+.link {
+    color: #7eda70;
+}
+.link:hover {
+    color: aliceblue;
+}
+
+.card-title {
+    z-index: 0;
+}
+.work {
+    margin-top: 30px;
+}
+#altro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+footer {
+    
+    padding: 5px;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px){
+    #menù {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+.work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#form {
+    flex-direction: row;
+}
+#cel-display-none {
+    display:inline;
+}
+}
+@media only screen and (min-width: 961px) {
+    #menù {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    
+    .work {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #form {
+        flex-direction: row;
+    }
+    #cel-display-none {
+        display:inline;
+    }
+}
